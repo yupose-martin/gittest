@@ -35,7 +35,7 @@ git config --global --list
 git diff
 /* some mistaked encountered
 
-$ git push -u origin main
+$ git push -u origin main # git push -f origin main gpt suggested
 To github.com:yupose-martin/gittest.git
  ! [rejected]        main -> main (non-fast-forward)
 error: failed to push some refs to 'github.com:yupose-martin/gittest.git'
@@ -43,6 +43,8 @@ hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+git pull or git fetch and git merge
 
 ```
 
