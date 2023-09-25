@@ -1,28 +1,12 @@
-# This is git test for beginner
-
-```bash
 echo "" > xxx.txt
 touch xxx.xxx
 git init
 git add . or specific
-git status #about those files included or not
-git restore --staged xxx.xxx
-git commmit -a -m "somthing"
-git commit -m "something"  --amend
 git commit -m "I'm not sure about this"
-git log
-git diff
-git restore xxx.xxx //after deleted
-git log --online 
-
-git rebash -i --root // something beyond
-
-git branch newbranch
-git branch
-
 git remote add origin git@github.com:yupose-martin/CPP.git
 git push remote origin //这个哥们儿是真不懂
 git pull
+git status //about those files included or not
 git config --global --list 
 //to change it use "git config --global user.email or user.name....(this could be email or name)
 git diff
@@ -36,6 +20,3 @@ hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
-```
-
