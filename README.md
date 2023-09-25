@@ -19,6 +19,7 @@ git rebash -i --root // something beyond
 
 git branch newbranch
 git branch
+//test in main
 
 git remote add origin git@github.com:yupose-martin/CPP.git
 git push remote origin //这个哥们儿是真不懂
