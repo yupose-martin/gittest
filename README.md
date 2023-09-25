@@ -19,6 +19,11 @@ git rebash -i --root // something beyond
 
 git branch newbranch
 git branch
+git switch xxbranch
+git merge -m "what you wanna say" xxbranch
+git branch -d xxbranch #delete the branch
+
+#test2
 
 git remote add origin git@github.com:yupose-martin/CPP.git
 git push remote origin //这个哥们儿是真不懂
