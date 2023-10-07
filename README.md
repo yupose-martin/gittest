@@ -35,7 +35,7 @@ git config --global --list
 git diff
 /* some mistaked encountered
 
-$ git push -u origin main # git push -f origin main gpt suggested
+$ git push -u origin main # git push -f origin main //gpt suggested
 To github.com:yupose-martin/gittest.git
  ! [rejected]        main -> main (non-fast-forward)
 error: failed to push some refs to 'github.com:yupose-martin/gittest.git'
